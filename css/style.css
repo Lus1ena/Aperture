@@ -334,3 +334,67 @@ header nav li:last-of-type a{
     background: #F9FAFB;
     display: inline-flex;
 }
+.clients .flex_block .owl-nav .owl-prev{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -93px;
+    top: 36px;
+    transform: rotate(90deg);
+
+}
+.clients .owl-nav .owl-prev:before {
+    content: "";
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    border-bottom: solid 48px transparent;
+    border-top: solid 48px white;
+    border-left: solid 48px transparent;
+    border-right: solid 48px transparent;
+    top: -49px;
+    left: -48px;
+}
+
+.clients .flex_block .owl-nav .owl-next{
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -7px;
+    top: 36px;
+    transform: rotate(-90deg);
+
+}
+.clients .owl-nav .owl-next:after {
+    content: "";
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    border-bottom: solid 48px transparent;
+    border-top: solid 48px white;
+    border-left: solid 48px transparent;
+    border-right: solid 48px transparent;
+    top: -49px;
+    left: -48px;
+}
+.ui-widget.ui-widget-content{
+    width: 500px !important;
+}
+.ui-dialog .ui-dialog-content{
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius:0;
+    font-family: 'poppinsregular';
+    line-height: 25px;
+    margin-top: 10px;
+    background-image: url("../images/hazy.jpg");
+}
+.ui-corner-all{
+    background-color: #083a08;
+    color:white;
+    border: none;
+    border-radius:0;
+}
